@@ -30,6 +30,12 @@ sudo apt install ./tita-ros2-20250311164048.deb
 ```bash
 sudo apt install ./tita-ros2-20250311164048.deb
 ```
+激活图传node 
+```bash
+# namespace 修改成当前本机tita namespace ,如：tita2342325
+ros2 param set /namespace/argus_camera_device img_transmission true
+```
+
 ```{note}
 完成以上步骤后；
 启动index.html , 在 TITA Broker IP 窗口输入局域网IP地址，用户名密码为空
