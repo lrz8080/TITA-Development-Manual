@@ -27,9 +27,7 @@ sudo apt install ./tita-ros2-20250311164048.deb
 
 3. 设置修改 /lib/systemd/system/tita-bringup.service 并设置Environment="ROS_LOCALHOST_ONLY=1" 为 0；
 并在终端设置对应的 export ROS_DOMAIN_ID=45
-```bash
-sudo apt install ./tita-ros2-20250311164048.deb
-```
+
 激活图传node 
 ```bash
 # namespace 修改成当前本机tita namespace ,如：tita2342325
